@@ -88,6 +88,10 @@ body{
     margin-left: 10px;
     border-radius: 4px;
 }
+.colored-user-icon:hover{
+    background-color: #fff;
+    border: 2px solid #FFD8DB;
+}
 .pink-user .user-color{
     background-color: pink;
 }
