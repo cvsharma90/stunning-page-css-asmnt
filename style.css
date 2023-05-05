@@ -1,0 +1,103 @@
+
+body{
+    margin: 40px 100px;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    height: 50px;
+}
+.nav-bar ul{
+    list-style-type: none;
+    display: inline-flex;
+    
+}
+.nav-bar ul li{
+    margin-right: 30px;
+    color:  #FFD8DB;
+}
+.nav-bar ul li:hover{
+    text-decoration: underline 2px;
+    text-underline-offset: 3px;
+    color: black;
+    text-decoration-color: #A389CC;    
+}
+.user-header{
+    background-color:#FFD8DB ;
+    padding: 15px 20px;
+    color: blue;
+    border-radius: 25px;
+    height: 20px;
+    line-height: 20px;
+}
+.main-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.main-content-left h1{
+    font-size: 40px;
+}
+.new-account-row{
+    margin-top: 30px;
+    display:flex;  
+}
+.new-account-row div{
+    margin-right: 10px;
+}
+
+.new-account-row>:first-child{
+    background-color: #5243C0;
+    color: #fff;
+    height: 50px; 
+    line-height: 50px;
+    padding: 0 20px;
+    border-radius: 25px;
+   
+}
+.new-account-row img{
+    height: 50px;
+}
+
+.colored-user-icon{
+    margin-top: 60px;
+}
+
+.icon{
+    background-color:#FFD8DB;
+    margin-bottom: 4px;
+    border-radius: 8px; 
+    height: 45px;
+}
+.orange-user{
+    background-color: #fff;
+    border: 2px solid #FFD8DB;
+}
+
+.colored-user-icon img{
+    height: 35px;
+}
+
+
+.colored-user-icon .user-color{   
+    height: 8px;
+    width: 20px;   
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+.pink-user .user-color{
+    background-color: pink;
+}
+.orange-user .user-color{
+    background-color: orange;
+}
+.blue-user .user-color{
+    background-color: blue;
+}
+.red-user .user-color{
+    background-color: red;
+}
+
